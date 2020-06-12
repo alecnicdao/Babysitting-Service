@@ -1,0 +1,215 @@
+/*
+Colors for babysitting website:
+*/
+
+/* Mobile */
+
+* {
+    box-sizing: border-box;     
+}
+
+body {
+    background-image: url("background.jpg");
+    color: #000000;
+}
+
+header {
+    background-color: #FFFACD;
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 100px;
+    position: relative;
+}
+
+.navdesktop {
+    display: none;
+}
+
+.navmobile {
+    display: inline-block;
+    background-color: #FFFACD;
+    width: 100%;
+}
+
+nav {
+    clear: left
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 20%;
+    font-size: 0.8em;
+}
+
+nav a, nav a:link, nav a:visited {
+    display: block;
+}
+
+nav a:hover {
+    background-color: #20516B;
+    color: white;
+}
+
+a, a:link, a:visited {
+    color: #696969;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 1s background-color;
+}
+
+header img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    max-height: 100%;
+    width: auto;
+}
+
+header h1 {
+    color: #87CEFA;
+    position: absolute;
+    top: 0px;
+    left: 160px;
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+h2, h3 {
+    color: #483D8B;
+    clear: left;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.flLeft {
+    float: left;
+    margin-right: 20px;
+}
+
+.flRight {
+    float: right;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    clear: left;
+    margin-top: 30px;
+}
+
+/* Desktop */
+/*DESKTOP LAYOUT*/
+@media only screen and (min-width: 1120px) {
+    * {
+        box-sizing: border-box;     
+    }
+    
+    body {
+        background-image: url("background.jpg");
+        color: #000000;
+    }
+    
+    header {
+        background-color: #FFFACD;
+        height: 200px;
+        padding-top: 80px;
+        padding-left: 320px;
+        position: relative;
+    }
+
+    .navdesktop {
+        display: inline-block;
+    }
+    
+    .navmobile {
+        display: none;
+    }
+    
+    nav {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    
+    nav li {
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+        width: 150px;
+        font-size: 1.2em;
+    }
+    
+    nav a, nav a:link, nav a:visited {
+        display: block;
+    }
+    
+    nav a:hover {
+        background-color: #20516B;
+        color: white;
+    }
+    
+    a, a:link, a:visited {
+        color: #696969;
+        font-weight: bold;
+        text-decoration: none;
+        transition: 1s background-color;
+    }
+    
+    header img {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    
+    header h1 {
+        color: #87CEFA;
+        position: absolute;
+        top: 20px;
+        left: 380px;
+        display: inline-block;
+        font-size: 2.5em;
+    }
+    
+    
+    .flLeft {
+        float: left;
+        margin-right: 20px;
+    }
+    
+    .flRight {
+        float: right;
+        margin-left: 20px;
+    }
+
+    /* Grid System */
+    
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    
+}
